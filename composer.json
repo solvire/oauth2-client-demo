@@ -1,0 +1,45 @@
+{
+    "name": "solvire/oauth2-client-demo",
+    "description": "OAuth 2.0 Client End User Demo",
+    "version": "0.1",
+    "homepage": "https://github.com/solvire/oauth2-client-demo",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzle/guzzle": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/solvire/oauth2-client-demo"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "authorization",
+        "authentication",
+        "idp",
+        "identity",
+        "sso",
+        "single sign on",
+        "demo"
+    ],
+    "authors": [
+        {
+            "name": "Steven Scott",
+            "email": "steve@openfoc.us",
+            "homepage": "http://openfoc.us",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Demo": "src/",
+            "Demo": "test/"
+        }
+    }
+}
