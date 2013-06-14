@@ -15,7 +15,7 @@ The client is an internal application that needs an OAuth server to vouch for th
 
 This is an incredibly simple tool to show and implement the flow of OAuth authorization.  
 
-<img src="images/OAuth2.png" alt="OAuth 2 logo" style="width: 100px;"/>
+<img src="images/OAuth2.jpg" alt="OAuth 2 logo" />
 
 See: (http://oauth.net/)
 
