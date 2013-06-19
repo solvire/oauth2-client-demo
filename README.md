@@ -69,3 +69,29 @@ For more information concerning the installation of Composer see [Get Composer](
 
 ### Usage 
 
+Setting up the config will get you close to where you need to be.  
+
+Then run the command line script *getToken.php*
+
+The expected outcome should be something similar to:
+
+	[usamp@local src]$ php getToken.php 
+	Original token: Array
+	(
+		[accessToken] => Rscx3XZowSPD2HJFFFzJrEFbVzlSTPkSrS49XPwQ
+		[expires] => 2743241052
+		[refreshToken] => WM6EUcGDdjpxzrWZJdBU4c3Wc1RsQT6oyila7sGH
+		[uid] => 
+	)
+
+	New Token: Array
+	(
+		[accessToken] => ruojjj0WDF8CY5OTfEId0abPnYCZHH7v8AmTsOgR
+		[expires] => 2743241052
+		[refreshToken] => 
+		[uid] => 
+	)
+
+The above example shows the connection to the system, authentication, authorization and response with the original token. 
+The the script will try again with a new connection and get another token by the refresh_token means. 
+
